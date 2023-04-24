@@ -1,5 +1,5 @@
 #!/usr/bin/node
-// function adds an item to the list, removes it, and returns it.
+// function add an item to the list, removes it, and returns it
 function nextInTheFile (list, element) {
   for (let i = 0; i <= element.length - 1; i++) {
     list.push(element[i]);
