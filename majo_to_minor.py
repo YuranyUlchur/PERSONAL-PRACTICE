@@ -12,7 +12,7 @@ def majo_to_minor():
         if my_list[x] > my_list[x + 1]:
             aux = my_list[x]
             my_list[x] = my_list[x + 1]
-            my_list[x + 1] = aux
+            my_list[x + 1] = aux 
 
-    return(my_list)
+    return(aux)
 print(majo_to_minor())

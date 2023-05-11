@@ -7,7 +7,7 @@ function nextInTheFile (list, element) {
   return list.shift();// remove first element
 }
 
-let myList = [1, 2, 3, 4, 5, 6, 7];
+const myList = [1, 2, 3, 4, 5, 6, 7];
 // converts the object into a string
 // print of myList
 console.log('BEFORE' + JSON.stringify(myList));
